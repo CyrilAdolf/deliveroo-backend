@@ -5,11 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  retu
-  
-  
-  
-  rn res.json({
+  return res.json({
     restaurant: {
       path: "Le Pain Quotidien",
       name: "Le Pain Quotidien - Montorgueil",
